@@ -6,9 +6,9 @@ https://docs.pact.io/how-pact-works
 ![Components interactions](components.PNG)
 
 This is a bare minimum example of interaction between 3 services
-1) Order Service [Java](https://github.ibm.com/sairsule/pact-scenarios/tree/master/spring/order-service), [GO](https://github.ibm.com/sairsule/pact-scenarios/tree/master/GO/order-service)
-2) User data Service [Java](https://github.ibm.com/sairsule/pact-scenarios/tree/master/spring/userdata-service),  [GO](https://github.ibm.com/sairsule/pact-scenarios/tree/master/GO/userdata-service)
-3) Warehouse service [Java](https://github.ibm.com/sairsule/pact-scenarios/tree/master/spring/warehouse-service),  [GO](https://github.ibm.com/sairsule/pact-scenarios/tree/master/GO/warehouse-service)
+1) Order Service [Java](https://github.com/sairandhree/pact-scenarios/tree/master/spring/order-service), [GO](https://github.com/sairandhree/pact-scenarios/tree/master/GO/order-service)
+2) User data Service [Java](https://github.com/sairandhree/pact-scenarios/tree/master/spring/userdata-service),  [GO](https://github.com/sairandhree/pact-scenarios/tree/master/GO/userdata-service)
+3) Warehouse service [Java](https://github.com/sairandhree/pact-scenarios/tree/master/spring/warehouse-service),  [GO](https://github.com/sairandhree/pact-scenarios/tree/master/GO/warehouse-service)
 
 When Order-service gets a order, it sends a message to be consumed by Warehouse-service. Warehouse service then parse the message and request Userdata-service to get user's address.
 
